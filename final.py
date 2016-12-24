@@ -238,7 +238,7 @@ for x in sorted_ta:
 
 # top 10 tags related to the Primary interest
 most_common_tags=sorted_tags[:10]
-print "most_common_tags are {}".format(most_common_tags)
+print "most_common_tags are \n {}".format(most_common_tags)
 
 
 def each(most_common_tags):
@@ -284,11 +284,11 @@ for inst in inst_lst:
         top_inst_lst[inst.relevance]=inst
 so_top=sorted(top_inst_lst.items(),  key=lambda x: x[1],reverse=True)
 soo_top=[so[1] for so in so_top]
-print soo_top
+# print soo_top
 
-
-for i in soo_top:
-    print i.retime()
+#
+# for i in soo_top:
+#     print i.retime()
 
 def avg_score(x):
     s=0
@@ -302,6 +302,18 @@ top_time=[ins.retime()for ins in soo_top]
 
 tup=zip(top_name,top_event_name, top_relevance, top_time)
 
+a=len(top_relevent_meetup)
+if a ==1 :
+    print "There is a "+ str(a) +" relevant MEETUP group around you!"
+elif a==0:
+    print "I am sorry that there is no relevant MEETUP group around you \n How about creating your own group?"
+else:
+    if a>5:
+        print "There is "+ str(a) +" relevant MEETUP group around you!\nHere is top 5 groups!!"
+        for top in top_name:
+            print top,"\n"
+    elif a==5:
+        print "There is "+ str(a) +" relevant MEETUP groups around you!"
 
 ################################################################################
 ############################ Making CSV file   #################################
