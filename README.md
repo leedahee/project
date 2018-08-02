@@ -1,4 +1,4 @@
-# project
+# Matching social event with your interest
 
 ## Synopsis
   "Tags" show us the one's subsequent interests to the primary one. Basically, it abstracts top 10 related tags people post from Tumbler, searches with that tags at Meetup, and then provide top 5 upcomming events sorted by the relevance. In a provider's perspective, we can use the outcome to grab the consumers' taste and provide a information considering that. As consumers, not only can we know what other people with similar interests like and we can also try some new activities based on that information.
