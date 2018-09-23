@@ -1,12 +1,12 @@
 # Matching social event with your interest
 
 ## Synopsis
-  "Tag" shows us the one's interests. The algorithm abstracts top 10 tags related to posts from Tumbler, searches these tags at Meetup, and then provides top 5 upcomming events sorted by the relevance. It can be utilized to broaden one's interest by analyzing  and suggest interesting activities accordingly. 
+  The algorithm abstracts top 10 tags related to a post, or a key word, from TUMBLER. It searches relevant MEETUP event using these 10 tags, and then provides 5 upcomming events sorted by the relevance. It can be utilized to broaden one's interest by analyzing others' interest. 
+  
   
 ## Motivation
-
-This is a final project of the class SI 506(programming), University of Michigan.
-
+  I was curious about what other people who share similar interest with me usually do. I hypothesized that a tag used at a social media shows us the one's interests and tags are somewhat related each other.  
+  
 
 ## Installation
 
