@@ -2,8 +2,7 @@
 
 ## Synopsis
   The algorithm abstracts top 10 tags related to a post, or a key word, from TUMBLER. It searches relevant MEETUP event using these 10 tags, and then provides 5 upcomming events sorted by the relevance. It can be utilized to broaden one's interest by analyzing others' interest. 
-  
-  
+  ![algorithm](https://user-images.githubusercontent.com/24194372/49836558-1decf380-fd71-11e8-8335-9d447477ebf0.png)
   
 ## Motivation
   I was curious about what other people who share similar interest with me usually do. I hypothesized that a tag used at a social media shows us the one's interests and tags are somewhat related each other.  
