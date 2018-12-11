@@ -5,7 +5,7 @@
   ![algorithm](https://user-images.githubusercontent.com/24194372/49836558-1decf380-fd71-11e8-8335-9d447477ebf0.png)
   
 ## Motivation
-  I was curious about what other people who share similar interest with me usually do. I hypothesized that a tag used at a social media shows us the one's interests and tags are somewhat related each other.  
+  I was curious about what other people having similar interest with me usually do. I hypothesized that 1) a tag used at a social media shows us one's interests and 2) the tags are somewhat related each other.  
   
 
 ## Installation
