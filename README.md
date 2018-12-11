@@ -1,7 +1,8 @@
-# Matching social event with your interest
+# Matching social events with your interest
 
 ## Synopsis
   The algorithm abstracts top 10 tags related to a post, or a key word, from TUMBLER. It searches relevant MEETUP event using these 10 tags, and then provides 5 upcomming events sorted by the relevance. It can be utilized to broaden one's interest by analyzing others' interest. 
+  
   
   
 ## Motivation
